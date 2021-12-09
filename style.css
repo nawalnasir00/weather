@@ -1,0 +1,108 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #ce87b0;
+}
+
+.container{
+    width: 663px;
+    background-color: #FFF;
+    display: block;
+    margin: 89px auto;
+    border-radius: 10px;
+    padding-bottom: 153px
+}
+
+.title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 22pt;
+    color: #293251;
+	position: fixed;
+    right: 509px;
+}
+
+.message{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.message p{
+    color: #c4616b;
+    font-size: 16pt;
+    text-align: center;
+    padding: 10px 0;
+	margin: 0;
+}
+
+.weather{
+    width: 300px;
+    height: 260px;
+    background-color: #ffffff;
+}
+
+
+.temperature{
+    width: 300px;
+    height:60px;
+}
+
+.temperature p{
+    padding: 47px;
+    margin: 0px;
+    color: #384575;
+    font-size: 30pt;
+    text-align: center;
+    cursor: pointer;
+	position: fixed;
+    right: 588px
+}
+
+.temperature p:hover{
+    
+}
+
+.temperature span{
+    color: #384575;
+    font-size: 16pt;
+}
+
+.info{
+    
+}
+
+.info p{
+    padding: 72px;
+    margin: 0;
+    color: #384575;
+    text-align: center;
+    font-size: 15pt;
+	position: fixed;
+    right: 565px;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 128px;
+    padding: 0px;
+    color: #384575;
+    text-align: center;
+    font-size: 16pt;
+    position: fixed;
+    right: 413px;
+}
+
+
+
